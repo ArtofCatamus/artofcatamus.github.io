@@ -1057,6 +1057,7 @@ body.stretched #header.full-header .container {
 #logo img {
 	display: block;
 	max-width: 100%;
+    border: 0
 }
 
 #logo a.standard-logo { display: block; }
