@@ -3319,11 +3319,11 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 #page-title {
 	position: relative;
-	padding: 80px 0;
+	padding: 40px 0;
     background-size: 100%;
     background-size: contain;
-    background:url('images/portfolio/banner2.png') no-repeat center #dcb28f;
-	/* background-color: #F5F5F5; */
+    /* background:url('images/portfolio/banner2.png') no-repeat center #dcb28f; */
+	background-color: #5b5b5b;
 	border-bottom: 1px solid #EEE;
 }
 
@@ -3335,9 +3335,13 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	line-height: 1;
 	font-weight: 600;
 	letter-spacing: 1px;
-	color: #333;
+	color: #FFF;
 	font-size: 28px;
 	text-transform: uppercase;
+}
+
+#page-title i {
+	color: #FFF;
 }
 
 #page-title span {
@@ -3435,6 +3439,13 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	padding: 100px 0;
 	text-shadow: none;
 	border-bottom: none;
+    text-align: center;
+}
+
+#page-title.page-title-parallax img {
+	max-height: 250px;
+    margin-top: -170px;
+    opacity: 70%;
 }
 
 #page-title.page-title-parallax h1 {
@@ -3449,10 +3460,11 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 #page-title.page-title-parallax {
 	background-color: transparent;
-	background-image: url('images/parallax/parallax-bg.jpg');
+	background-image: url('images/parallax3.png');
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
+    max-height: 300px;
 }
 
 
